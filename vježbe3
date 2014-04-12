@@ -1,0 +1,48 @@
+{
+ "metadata": {
+  "name": "3.vje\u017ebe"
+ }, 
+ "nbformat": 2, 
+ "worksheets": [
+  {
+   "cells": [
+    {
+     "cell_type": "code", 
+     "collapsed": true, 
+     "input": [
+      "from numpy import *"
+     ], 
+     "language": "python", 
+     "outputs": [], 
+     "prompt_number": 1
+    }, 
+    {
+     "cell_type": "code", 
+     "collapsed": false, 
+     "input": [
+      "M.dtype"
+     ], 
+     "language": "python", 
+     "outputs": [
+      {
+       "ename": "NameError", 
+       "evalue": "name 'M' is not defined", 
+       "output_type": "pyerr", 
+       "traceback": [
+        "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m\n\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)", 
+        "\u001b[0;32m/home/ubuntu/<ipython-input-2-3d67b0f7efea>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mM\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mdtype\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m", 
+        "\u001b[0;31mNameError\u001b[0m: name 'M' is not defined"
+       ]
+      }
+     ], 
+     "prompt_number": 2
+    }, 
+    {
+     "cell_type": "code", 
+     "collapsed": false, 
+     "input": [
+      "M=array([1,2],[3,4],dtype=int)", 
+      "M"
+     ], 
+     "language": "python", 
+     "outputs": [
